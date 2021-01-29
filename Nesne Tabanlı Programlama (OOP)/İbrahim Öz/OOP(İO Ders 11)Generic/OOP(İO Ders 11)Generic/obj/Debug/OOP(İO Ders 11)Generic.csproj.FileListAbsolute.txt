@@ -1,0 +1,12 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\bin\Debug\OOP(İO Ders 11)Generic.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\obj\Debug\OOP(İO Ders 11)Generic.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\bin\Debug\OOP(İO Ders 11)Generic.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\bin\Debug\OOP(İO Ders 11)Generic.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\obj\Debug\OOP(İO Ders 11)Generic.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\obj\Debug\OOP(İO Ders 11)Generic.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\bin\Debug\OOP(İO Ders 11)Generic.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\obj\Debug\OOP(İO Ders 11)Generic.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\obj\Debug\OOP(İO Ders 11)Generic.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\bin\Debug\OOP(İO Ders 11)Generic.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\bin\Debug\OOP(İO Ders 11)Generic.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 11)Generic\OOP(İO Ders 11)Generic\obj\Debug\OOP(İO Ders 11)Generic.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\bin\Debug\OOP Ders 2(MYDers45)-Inheritance.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\bin\Debug\OOP Ders 2(MYDers45)-Inheritance.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\bin\Debug\OOP Ders 2(MYDers45)-Inheritance.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\obj\Debug\OOP Ders 2(MYDers45)-Inheritance.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\obj\Debug\OOP_Ders_2_MYDers45__Inheritance.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\obj\Debug\OOP_Ders_2_MYDers45__Inheritance.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\obj\Debug\OOP Ders 2(MYDers45)-Inheritance.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\obj\Debug\OOP Ders 2(MYDers45)-Inheritance.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 2(MYDers45)-Inheritance\OOP Ders 2(MYDers45)-Inheritance\obj\Debug\OOP Ders 2(MYDers45)-Inheritance.pdb

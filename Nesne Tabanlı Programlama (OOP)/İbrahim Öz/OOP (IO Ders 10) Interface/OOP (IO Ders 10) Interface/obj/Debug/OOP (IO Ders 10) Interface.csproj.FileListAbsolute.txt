@@ -1,0 +1,16 @@
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\bin\Debug\OOP (IO Ders 10) Interface.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\bin\Debug\OOP (IO Ders 10) Interface.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\bin\Debug\OOP (IO Ders 10) Interface.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\bin\Debug\OOP (IO Ders 10) Interface.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP__IO_Ders_10__Interface.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP__IO_Ders_10__Interface.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.csproj.GenerateResource.Cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Murat Yücedağ\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\bin\Debug\OOP (IO Ders 10) Interface.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Murat Yücedağ\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Murat Yücedağ\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\bin\Debug\OOP (IO Ders 10) Interface.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 10) Interface\OOP (IO Ders 10) Interface\obj\Debug\OOP (IO Ders 10) Interface.pdb

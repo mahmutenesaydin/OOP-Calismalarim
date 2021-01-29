@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\Hafta 2 Constracter Method\Hafta 2 Constracter Method\bin\Debug\Hafta 2 Constracter Method.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\Hafta 2 Constracter Method\Hafta 2 Constracter Method\bin\Debug\Hafta 2 Constracter Method.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\Hafta 2 Constracter Method\Hafta 2 Constracter Method\bin\Debug\Hafta 2 Constracter Method.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\Hafta 2 Constracter Method\Hafta 2 Constracter Method\obj\Debug\Hafta 2 Constracter Method.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\Hafta 2 Constracter Method\Hafta 2 Constracter Method\obj\Debug\Hafta 2 Constracter Method.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\Hafta 2 Constracter Method\Hafta 2 Constracter Method\obj\Debug\Hafta 2 Constracter Method.pdb

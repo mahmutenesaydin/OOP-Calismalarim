@@ -1,0 +1,12 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\bin\Debug\OOP(GY Ders2) Class ve Obejct.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\bin\Debug\OOP(GY Ders2) Class ve Obejct.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\bin\Debug\OOP(GY Ders2) Class ve Obejct.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\obj\Debug\OOP(GY Ders2) Class ve Obejct.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\obj\Debug\OOP(GY Ders2) Class ve Obejct.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\obj\Debug\OOP(GY Ders2) Class ve Obejct.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\bin\Debug\OOP(GY Ders2) Class ve Obejct.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\obj\Debug\OOP(GY Ders2) Class ve Obejct.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\obj\Debug\OOP(GY Ders2) Class ve Obejct.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\bin\Debug\OOP(GY Ders2) Class ve Obejct.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\bin\Debug\OOP(GY Ders2) Class ve Obejct.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders2) Class ve Obejct\OOP(GY Ders2) Class ve Obejct\obj\Debug\OOP(GY Ders2) Class ve Obejct.csprojResolveAssemblyReference.cache

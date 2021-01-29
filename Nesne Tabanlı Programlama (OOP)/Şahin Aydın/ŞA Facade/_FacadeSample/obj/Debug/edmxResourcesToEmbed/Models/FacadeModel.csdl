@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FacadeDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankID" />
+    </Key>
+    <Property Name="BankID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="CustomerAmount" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Credit">
+    <Key>
+      <PropertyRef Name="CreditID" />
+    </Key>
+    <Property Name="CreditID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="CreditAmount" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Loan">
+    <Key>
+      <PropertyRef Name="LoanID" />
+    </Key>
+    <Property Name="LoanID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="LoanAmount" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityContainer Name="FacadeDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Banks" EntityType="Self.Bank" />
+    <EntitySet Name="Credits" EntityType="Self.Credit" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Loans" EntityType="Self.Loan" />
+  </EntityContainer>
+</Schema>

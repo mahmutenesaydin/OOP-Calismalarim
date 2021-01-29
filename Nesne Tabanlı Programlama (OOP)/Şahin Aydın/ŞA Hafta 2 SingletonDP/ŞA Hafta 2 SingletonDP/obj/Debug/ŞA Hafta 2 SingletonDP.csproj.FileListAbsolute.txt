@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 SingletonDP\ŞA Hafta 2 SingletonDP\bin\Debug\ŞA Hafta 2 SingletonDP.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 SingletonDP\ŞA Hafta 2 SingletonDP\bin\Debug\ŞA Hafta 2 SingletonDP.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 SingletonDP\ŞA Hafta 2 SingletonDP\bin\Debug\ŞA Hafta 2 SingletonDP.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 SingletonDP\ŞA Hafta 2 SingletonDP\obj\Debug\ŞA Hafta 2 SingletonDP.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 SingletonDP\ŞA Hafta 2 SingletonDP\obj\Debug\ŞA Hafta 2 SingletonDP.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 SingletonDP\ŞA Hafta 2 SingletonDP\obj\Debug\ŞA Hafta 2 SingletonDP.pdb

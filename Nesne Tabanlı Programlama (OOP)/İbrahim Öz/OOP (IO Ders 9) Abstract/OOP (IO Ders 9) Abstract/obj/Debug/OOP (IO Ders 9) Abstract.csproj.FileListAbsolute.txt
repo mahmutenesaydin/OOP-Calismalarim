@@ -1,0 +1,18 @@
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\bin\Debug\OOP (IO Ders 9) Abstract.exe.config
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.csprojResolveAssemblyReference.cache
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP__IO_Ders_9__Abstract.Form1.resources
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP__IO_Ders_9__Abstract.Properties.Resources.resources
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.csproj.GenerateResource.Cache
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\bin\Debug\OOP (IO Ders 9) Abstract.exe
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\bin\Debug\OOP (IO Ders 9) Abstract.pdb
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.exe
+c:\users\yazilim\documents\visual studio 2015\Projects\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\bin\Debug\OOP (IO Ders 9) Abstract.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\bin\Debug\OOP (IO Ders 9) Abstract.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\bin\Debug\OOP (IO Ders 9) Abstract.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP__IO_Ders_9__Abstract.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP__IO_Ders_9__Abstract.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 9) Abstract\OOP (IO Ders 9) Abstract\obj\Debug\OOP (IO Ders 9) Abstract.csproj.GenerateResource.Cache

@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 3 FactoryMethod\ŞA Hafta 3 FactoryMethod\bin\Debug\ŞA Hafta 3 FactoryMethod.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 3 FactoryMethod\ŞA Hafta 3 FactoryMethod\bin\Debug\ŞA Hafta 3 FactoryMethod.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 3 FactoryMethod\ŞA Hafta 3 FactoryMethod\bin\Debug\ŞA Hafta 3 FactoryMethod.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 3 FactoryMethod\ŞA Hafta 3 FactoryMethod\obj\Debug\ŞA Hafta 3 FactoryMethod.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 3 FactoryMethod\ŞA Hafta 3 FactoryMethod\obj\Debug\ŞA Hafta 3 FactoryMethod.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 3 FactoryMethod\ŞA Hafta 3 FactoryMethod\obj\Debug\ŞA Hafta 3 FactoryMethod.pdb

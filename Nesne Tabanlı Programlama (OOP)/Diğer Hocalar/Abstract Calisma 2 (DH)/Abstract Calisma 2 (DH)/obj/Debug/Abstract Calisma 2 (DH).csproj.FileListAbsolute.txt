@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\bin\Debug\Abstract Calisma 2 (DH).exe.config
+c:\users\abc\documents\visual studio 2015\Projects\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\bin\Debug\Abstract Calisma 2 (DH).exe
+c:\users\abc\documents\visual studio 2015\Projects\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\bin\Debug\Abstract Calisma 2 (DH).pdb
+c:\users\abc\documents\visual studio 2015\Projects\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\obj\Debug\Abstract Calisma 2 (DH).csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\obj\Debug\Abstract Calisma 2 (DH).exe
+c:\users\abc\documents\visual studio 2015\Projects\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\obj\Debug\Abstract Calisma 2 (DH).pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\bin\Debug\Abstract Calisma 2 (DH).exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\obj\Debug\Abstract Calisma 2 (DH).exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\Abstract Calisma 2 (DH)\Abstract Calisma 2 (DH)\obj\Debug\Abstract Calisma 2 (DH).pdb

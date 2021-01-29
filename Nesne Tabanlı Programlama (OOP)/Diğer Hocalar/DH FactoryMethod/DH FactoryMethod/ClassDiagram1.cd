@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DH_FactoryMethod.Screen" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DH_FactoryMethod.WindowsScreen" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DH_FactoryMethod.MobileScreen" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DH_FactoryMethod.Creator" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DH_FactoryMethod.Creator2" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DH_FactoryMethod.WinScreen" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DH_FactoryMethod.MobilScreen" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DH_FactoryMethod.ScreenModel" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAA=</HashCode>
+      <FileName>Creator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

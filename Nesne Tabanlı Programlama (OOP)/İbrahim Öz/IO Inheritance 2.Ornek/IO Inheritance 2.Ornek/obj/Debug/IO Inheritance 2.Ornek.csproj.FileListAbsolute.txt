@@ -1,0 +1,12 @@
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\bin\Debug\IO Inheritance 2.Ornek.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\bin\Debug\IO Inheritance 2.Ornek.exe
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\bin\Debug\IO Inheritance 2.Ornek.pdb
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO Inheritance 2.Ornek.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO_Inheritance_2.Ornek.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO_Inheritance_2.Ornek.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO Inheritance 2.Ornek.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO Inheritance 2.Ornek.exe
+c:\users\abc\documents\visual studio 2015\Projects\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO Inheritance 2.Ornek.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\bin\Debug\IO Inheritance 2.Ornek.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO Inheritance 2.Ornek.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Inheritance 2.Ornek\IO Inheritance 2.Ornek\obj\Debug\IO Inheritance 2.Ornek.pdb

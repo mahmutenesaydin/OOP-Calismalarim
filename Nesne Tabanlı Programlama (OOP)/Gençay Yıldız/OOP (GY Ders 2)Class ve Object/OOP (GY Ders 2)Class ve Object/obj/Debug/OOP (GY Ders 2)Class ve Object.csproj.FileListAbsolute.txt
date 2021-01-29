@@ -1,0 +1,2 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP (GY Ders 2)Class ve Object\OOP (GY Ders 2)Class ve Object\bin\Debug\OOP (GY Ders 2)Class ve Object.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP (GY Ders 2)Class ve Object\OOP (GY Ders 2)Class ve Object\bin\Debug\OOP (GY Ders 2)Class ve Object.exe.config

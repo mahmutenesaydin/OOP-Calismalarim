@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\DH Interface 1\DH Interface 1\bin\Debug\DH Interface 1.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\DH Interface 1\DH Interface 1\bin\Debug\DH Interface 1.exe
+c:\users\abc\documents\visual studio 2015\Projects\DH Interface 1\DH Interface 1\bin\Debug\DH Interface 1.pdb
+c:\users\abc\documents\visual studio 2015\Projects\DH Interface 1\DH Interface 1\obj\Debug\DH Interface 1.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\DH Interface 1\DH Interface 1\obj\Debug\DH Interface 1.exe
+c:\users\abc\documents\visual studio 2015\Projects\DH Interface 1\DH Interface 1\obj\Debug\DH Interface 1.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Interface 1\DH Interface 1\bin\Debug\DH Interface 1.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Interface 1\DH Interface 1\obj\Debug\DH Interface 1.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Interface 1\DH Interface 1\obj\Debug\DH Interface 1.pdb

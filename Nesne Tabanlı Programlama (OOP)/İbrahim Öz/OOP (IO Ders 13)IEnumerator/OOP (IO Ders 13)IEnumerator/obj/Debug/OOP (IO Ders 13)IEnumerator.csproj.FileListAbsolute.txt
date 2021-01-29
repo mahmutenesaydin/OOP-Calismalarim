@@ -1,0 +1,12 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\bin\Debug\OOP (IO Ders 13)IEnumerator.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\bin\Debug\OOP (IO Ders 13)IEnumerator.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\bin\Debug\OOP (IO Ders 13)IEnumerator.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP (IO Ders 13)IEnumerator.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP__IO_Ders_13_IEnumerator.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP__IO_Ders_13_IEnumerator.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP (IO Ders 13)IEnumerator.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP (IO Ders 13)IEnumerator.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP (IO Ders 13)IEnumerator.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\bin\Debug\OOP (IO Ders 13)IEnumerator.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP (IO Ders 13)IEnumerator.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP (IO Ders 13)IEnumerator\OOP (IO Ders 13)IEnumerator\obj\Debug\OOP (IO Ders 13)IEnumerator.pdb

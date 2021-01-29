@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta3 BuilderDP AraçÖrn\ŞA Hafta3 BuilderDP AraçÖrn\bin\Debug\ŞA Hafta3 BuilderDP AraçÖrn.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta3 BuilderDP AraçÖrn\ŞA Hafta3 BuilderDP AraçÖrn\bin\Debug\ŞA Hafta3 BuilderDP AraçÖrn.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta3 BuilderDP AraçÖrn\ŞA Hafta3 BuilderDP AraçÖrn\bin\Debug\ŞA Hafta3 BuilderDP AraçÖrn.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta3 BuilderDP AraçÖrn\ŞA Hafta3 BuilderDP AraçÖrn\obj\Debug\ŞA Hafta3 BuilderDP AraçÖrn.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta3 BuilderDP AraçÖrn\ŞA Hafta3 BuilderDP AraçÖrn\obj\Debug\ŞA Hafta3 BuilderDP AraçÖrn.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta3 BuilderDP AraçÖrn\ŞA Hafta3 BuilderDP AraçÖrn\obj\Debug\ŞA Hafta3 BuilderDP AraçÖrn.pdb

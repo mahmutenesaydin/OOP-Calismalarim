@@ -1,0 +1,26 @@
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\_FacadeSample.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\_FacadeSample.exe
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\_FacadeSample.pdb
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.dll
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.xml
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.exe
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\_FacadeSample.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\_FacadeSample.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\_FacadeSample.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.xml
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Facade\_FacadeSample\obj\Debug\_FacadeSample.csproj.GenerateResource.Cache

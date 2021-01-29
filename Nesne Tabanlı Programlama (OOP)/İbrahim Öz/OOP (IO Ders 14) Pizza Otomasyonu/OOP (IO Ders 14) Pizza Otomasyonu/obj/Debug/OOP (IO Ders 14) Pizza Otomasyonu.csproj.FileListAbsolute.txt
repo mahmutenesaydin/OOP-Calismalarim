@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\bin\Debug\OOP (IO Ders 14) Pizza Otomasyonu.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\bin\Debug\OOP (IO Ders 14) Pizza Otomasyonu.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\bin\Debug\OOP (IO Ders 14) Pizza Otomasyonu.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\obj\Debug\OOP (IO Ders 14) Pizza Otomasyonu.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\obj\Debug\OOP__IO_Ders_14__Pizza_Otomasyonu.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\obj\Debug\OOP__IO_Ders_14__Pizza_Otomasyonu.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\obj\Debug\OOP (IO Ders 14) Pizza Otomasyonu.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\obj\Debug\OOP (IO Ders 14) Pizza Otomasyonu.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP (IO Ders 14) Pizza Otomasyonu\OOP (IO Ders 14) Pizza Otomasyonu\obj\Debug\OOP (IO Ders 14) Pizza Otomasyonu.pdb

@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 Static\ŞA Hafta 2 Static\bin\Debug\ŞA Hafta 2 Static.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 Static\ŞA Hafta 2 Static\bin\Debug\ŞA Hafta 2 Static.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 Static\ŞA Hafta 2 Static\bin\Debug\ŞA Hafta 2 Static.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 Static\ŞA Hafta 2 Static\obj\Debug\ŞA Hafta 2 Static.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 Static\ŞA Hafta 2 Static\obj\Debug\ŞA Hafta 2 Static.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\ŞA Hafta 2 Static\ŞA Hafta 2 Static\obj\Debug\ŞA Hafta 2 Static.pdb

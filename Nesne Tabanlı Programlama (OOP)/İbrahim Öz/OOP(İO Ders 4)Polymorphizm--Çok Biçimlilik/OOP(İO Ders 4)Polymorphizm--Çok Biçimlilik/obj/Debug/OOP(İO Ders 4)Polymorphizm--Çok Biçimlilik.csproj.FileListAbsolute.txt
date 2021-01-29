@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\bin\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.exe.config
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\bin\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.exe
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\bin\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.pdb
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\obj\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.csprojResolveAssemblyReference.cache
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\obj\Debug\OOP_İO_Ders_4_Polymorphizm__Çok_Biçimlilik.Form1.resources
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\obj\Debug\OOP_İO_Ders_4_Polymorphizm__Çok_Biçimlilik.Properties.Resources.resources
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\obj\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.csproj.GenerateResource.Cache
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\obj\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.exe
+C:\Users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik\obj\Debug\OOP(İO Ders 4)Polymorphizm--Çok Biçimlilik.pdb

@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH AbstractFactoryDP\DH AbstractFactoryDP\bin\Debug\DH AbstractFactoryDP.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH AbstractFactoryDP\DH AbstractFactoryDP\obj\Debug\DH AbstractFactoryDP.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH AbstractFactoryDP\DH AbstractFactoryDP\bin\Debug\DH AbstractFactoryDP.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH AbstractFactoryDP\DH AbstractFactoryDP\bin\Debug\DH AbstractFactoryDP.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH AbstractFactoryDP\DH AbstractFactoryDP\obj\Debug\DH AbstractFactoryDP.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH AbstractFactoryDP\DH AbstractFactoryDP\obj\Debug\DH AbstractFactoryDP.pdb

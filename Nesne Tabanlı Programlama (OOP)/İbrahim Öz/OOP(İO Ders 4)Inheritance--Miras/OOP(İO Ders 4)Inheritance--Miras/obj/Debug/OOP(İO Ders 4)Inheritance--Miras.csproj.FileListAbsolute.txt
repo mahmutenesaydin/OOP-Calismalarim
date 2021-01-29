@@ -1,0 +1,6 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP(İO Ders 4)Inheritance--Miras\OOP(İO Ders 4)Inheritance--Miras\bin\Debug\OOP(İO Ders 4)Inheritance--Miras.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 4)Inheritance--Miras\OOP(İO Ders 4)Inheritance--Miras\bin\Debug\OOP(İO Ders 4)Inheritance--Miras.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 4)Inheritance--Miras\OOP(İO Ders 4)Inheritance--Miras\obj\Debug\OOP(İO Ders 4)Inheritance--Miras.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 4)Inheritance--Miras\OOP(İO Ders 4)Inheritance--Miras\obj\Debug\OOP_İO_Ders_4_Inheritance__Miras.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 4)Inheritance--Miras\OOP(İO Ders 4)Inheritance--Miras\obj\Debug\OOP_İO_Ders_4_Inheritance__Miras.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\OOP(İO Ders 4)Inheritance--Miras\OOP(İO Ders 4)Inheritance--Miras\obj\Debug\OOP(İO Ders 4)Inheritance--Miras.csproj.GenerateResource.Cache

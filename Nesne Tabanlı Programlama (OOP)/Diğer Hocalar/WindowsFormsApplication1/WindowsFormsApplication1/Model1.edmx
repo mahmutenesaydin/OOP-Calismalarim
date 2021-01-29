@@ -1,0 +1,1876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="UrunBilgiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AkilliTelefon">
+          <Key>
+            <PropertyRef Name="AkilliTelefonID" />
+          </Key>
+          <Property Name="AkilliTelefonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="DahiliDepolama" Type="varchar" MaxLength="10" />
+          <Property Name="RAM" Type="varchar" MaxLength="10" />
+          <Property Name="EkranBoyutu" Type="nvarchar" MaxLength="10" />
+          <Property Name="BataryaKapasitesi" Type="varchar" MaxLength="10" />
+          <Property Name="ArkaKameraÇözünürlüğü" Type="varchar" MaxLength="10" />
+          <Property Name="ÖnKameraÇözünürlüğü" Type="varchar" MaxLength="10" />
+          <Property Name="Anaİşlemci" Type="nvarchar" MaxLength="50" />
+          <Property Name="YongaSeti" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsletimSistemi" Type="nvarchar" MaxLength="15" />
+          <Property Name="AnTuTuPuanı" Type="varchar" MaxLength="10" />
+          <Property Name="Ağırlık" Type="varchar" MaxLength="10" />
+          <Property Name="TelefonID" Type="int" />
+        </EntityType>
+        <EntityType Name="BeyazEsya">
+          <Key>
+            <PropertyRef Name="BeyazEsyaID" />
+          </Key>
+          <Property Name="BeyazEsyaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BeyazEsyaTuru" Type="nvarchar" MaxLength="40" />
+          <Property Name="UrunID" Type="int" />
+          <Property Name="KategoriID" Type="int" />
+        </EntityType>
+        <EntityType Name="Bilgisayar">
+          <Key>
+            <PropertyRef Name="BilgisayarID" />
+          </Key>
+          <Property Name="BilgisayarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BilgisayarTuru" Type="varchar" MaxLength="15" />
+          <Property Name="UrunID" Type="int" />
+          <Property Name="KategoriID" Type="int" />
+        </EntityType>
+        <EntityType Name="BulasikMakinesi">
+          <Key>
+            <PropertyRef Name="BulasikMakinesiID" />
+          </Key>
+          <Property Name="BulasikMakinesiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="SuTuketimi" Type="nvarchar" MaxLength="10" />
+          <Property Name="SicaklikSayisi" Type="int" />
+          <Property Name="Kapasite" Type="nvarchar" MaxLength="10" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="KullanimTipi" Type="varchar" MaxLength="15" />
+          <Property Name="Guc" Type="nvarchar" MaxLength="10" />
+          <Property Name="BeyazEsyaID" Type="int" />
+        </EntityType>
+        <EntityType Name="Buzdolabi">
+          <Key>
+            <PropertyRef Name="BuzdolabiID" />
+          </Key>
+          <Property Name="BuzdolabiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="SogutmaSistemi" Type="nvarchar" MaxLength="25" />
+          <Property Name="NetHacim" Type="varchar" MaxLength="8" />
+          <Property Name="DondurmaKapasitesi" Type="varchar" MaxLength="8" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="BuzdolabiTipi" Type="varchar" MaxLength="30" />
+          <Property Name="Yukseklik" Type="varchar" MaxLength="10" />
+          <Property Name="Genislik" Type="varchar" MaxLength="10" />
+          <Property Name="BeyazEsyaID" Type="int" />
+        </EntityType>
+        <EntityType Name="CamasirMakinesi">
+          <Key>
+            <PropertyRef Name="CamasirMakinesiID" />
+          </Key>
+          <Property Name="CamasirMakinesiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="KullanimTipi" Type="varchar" MaxLength="15" />
+          <Property Name="YillikSuTuketimi" Type="nvarchar" MaxLength="10" />
+          <Property Name="YillikEnerjiTuketimi" Type="nvarchar" MaxLength="10" />
+          <Property Name="YikamaKapasite" Type="nvarchar" MaxLength="10" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="MaxSikmaDevri" Type="varchar" MaxLength="15" />
+          <Property Name="BeyazEsyaID" Type="int" />
+        </EntityType>
+        <EntityType Name="DerinDondurucu">
+          <Key>
+            <PropertyRef Name="DerinDondurucuID" />
+          </Key>
+          <Property Name="DerinDondurucuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="SogutmaSistemi" Type="nvarchar" MaxLength="25" />
+          <Property Name="CekmeceSayisi" Type="int" />
+          <Property Name="NetHacim" Type="varchar" MaxLength="8" />
+          <Property Name="DondurmaKapasitesi" Type="varchar" MaxLength="8" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="Yukseklik" Type="varchar" MaxLength="10" />
+          <Property Name="Genislik" Type="varchar" MaxLength="10" />
+          <Property Name="BeyazEsyaID" Type="int" />
+        </EntityType>
+        <EntityType Name="Fırın">
+          <Key>
+            <PropertyRef Name="FırınID" />
+          </Key>
+          <Property Name="FırınID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="FirinTipi" Type="varchar" MaxLength="15" />
+          <Property Name="FonksiyonSayisi" Type="int" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="Yukseklik" Type="varchar" MaxLength="10" />
+          <Property Name="Genislik" Type="varchar" MaxLength="10" />
+          <Property Name="Hacim" Type="varchar" MaxLength="10" />
+          <Property Name="BeyazEsyaID" Type="int" />
+        </EntityType>
+        <EntityType Name="Goruntu">
+          <Key>
+            <PropertyRef Name="GoruntuID" />
+          </Key>
+          <Property Name="GoruntuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GoruntuTuru" Type="varchar" MaxLength="15" />
+          <Property Name="UrunID" Type="int" />
+          <Property Name="KategoriID" Type="int" />
+        </EntityType>
+        <EntityType Name="Kategoriler">
+          <Key>
+            <PropertyRef Name="KategoriID" />
+          </Key>
+          <Property Name="KategoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Tanimi" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Kullanici">
+          <Key>
+            <PropertyRef Name="KullaniciID" />
+          </Key>
+          <Property Name="KullaniciID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AdSoyad" Type="varchar" MaxLength="30" />
+          <Property Name="KullaniciAdi" Type="nvarchar" MaxLength="20" />
+          <Property Name="KullaniciSifre" Type="nvarchar" MaxLength="20" />
+          <Property Name="Eposta" Type="nvarchar" MaxLength="50" />
+          <Property Name="CepTelefonu" Type="varchar" MaxLength="15" />
+          <Property Name="Cinsiyet" Type="varchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Laptop">
+          <Key>
+            <PropertyRef Name="LaptopID" />
+          </Key>
+          <Property Name="LaptopID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="PanelTipi" Type="nvarchar" MaxLength="15" />
+          <Property Name="IslemciMarkasi" Type="nvarchar" MaxLength="15" />
+          <Property Name="IsletimSistemi" Type="varchar" MaxLength="20" />
+          <Property Name="IslemciNesli" Type="varchar" MaxLength="15" />
+          <Property Name="HHDBoyutu" Type="varchar" MaxLength="10" />
+          <Property Name="SSDBoyutu" Type="varchar" MaxLength="10" />
+          <Property Name="EkranKartıModeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="EkranKartiBellekMiktari" Type="varchar" MaxLength="8" />
+          <Property Name="RAM" Type="varchar" MaxLength="10" />
+          <Property Name="IslemciModeli" Type="nvarchar" MaxLength="25" />
+          <Property Name="IslemciTemelFrekansi" Type="nvarchar" MaxLength="15" />
+          <Property Name="BilgisayarID" Type="int" />
+        </EntityType>
+        <EntityType Name="MasaüstüBilgisayar">
+          <Key>
+            <PropertyRef Name="MasaüstüBilgisayarID" />
+          </Key>
+          <Property Name="MasaüstüBilgisayarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="IslemciMarkasi" Type="nvarchar" MaxLength="15" />
+          <Property Name="IsletimSistemi" Type="varchar" MaxLength="20" />
+          <Property Name="IslemciNesli" Type="varchar" MaxLength="15" />
+          <Property Name="HHDBoyutu" Type="varchar" MaxLength="10" />
+          <Property Name="SSDBoyutu" Type="varchar" MaxLength="10" />
+          <Property Name="EkranKartıModeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="EkranKartiBellekMiktari" Type="varchar" MaxLength="8" />
+          <Property Name="RAM" Type="varchar" MaxLength="10" />
+          <Property Name="IslemciModeli" Type="nvarchar" MaxLength="25" />
+          <Property Name="IslemciTemelFrekansi" Type="nvarchar" MaxLength="15" />
+          <Property Name="KasaTipi" Type="varchar" MaxLength="15" />
+          <Property Name="BilgisayarID" Type="int" />
+        </EntityType>
+        <EntityType Name="Monitor">
+          <Key>
+            <PropertyRef Name="MonitorID" />
+          </Key>
+          <Property Name="MonitorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="Ekran" Type="nvarchar" MaxLength="15" />
+          <Property Name="EkranBoyutu" Type="varchar" MaxLength="10" />
+          <Property Name="EkranTeknolojisi" Type="nvarchar" MaxLength="20" />
+          <Property Name="EkranCozunurlugu" Type="nvarchar" MaxLength="20" />
+          <Property Name="CozunurlukStandardi" Type="nvarchar" MaxLength="10" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="GoruntuID" Type="int" />
+        </EntityType>
+        <EntityType Name="Musteri">
+          <Key>
+            <PropertyRef Name="MusteriId" />
+          </Key>
+          <Property Name="MusteriId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MusteriAdi" Type="varchar" MaxLength="50" />
+          <Property Name="MusteriSoyadi" Type="varchar" MaxLength="50" />
+          <Property Name="TelefonNumarasi" Type="varchar" MaxLength="15" />
+          <Property Name="Sectikleri" Type="nvarchar" MaxLength="300" />
+          <Property Name="KullaniciID" Type="int" />
+        </EntityType>
+        <EntityType Name="Siparis">
+          <Key>
+            <PropertyRef Name="SiparisID" />
+          </Key>
+          <Property Name="SiparisID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SiparisAdi" Type="nvarchar" MaxLength="100" />
+          <Property Name="ToplamTutar" Type="money" />
+          <Property Name="MusteriID" Type="int" />
+          <Property Name="UrunID" Type="int" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Tablet">
+          <Key>
+            <PropertyRef Name="TabletID" />
+          </Key>
+          <Property Name="TabletID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="EkranBoyutu" Type="nvarchar" MaxLength="10" />
+          <Property Name="BataryaKapasitesi" Type="varchar" MaxLength="10" />
+          <Property Name="ArkaKameraÇözünürlüğü" Type="varchar" MaxLength="10" />
+          <Property Name="ÖnKameraÇözünürlüğü" Type="varchar" MaxLength="10" />
+          <Property Name="IsletimSistemi" Type="nvarchar" MaxLength="15" />
+          <Property Name="IslemciTemelFrekansi" Type="nvarchar" MaxLength="15" />
+          <Property Name="Anaİşlemci" Type="nvarchar" MaxLength="50" />
+          <Property Name="YongaSeti" Type="nvarchar" MaxLength="50" />
+          <Property Name="DahiliDepolama" Type="varchar" MaxLength="10" />
+          <Property Name="RAM" Type="varchar" MaxLength="10" />
+          <Property Name="BilgisayarID" Type="int" />
+        </EntityType>
+        <EntityType Name="Telefon">
+          <Key>
+            <PropertyRef Name="TelefonID" />
+          </Key>
+          <Property Name="TelefonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TelefonTuru" Type="varchar" MaxLength="20" />
+          <Property Name="UrunID" Type="int" />
+          <Property Name="KategoriID" Type="int" />
+        </EntityType>
+        <EntityType Name="Televizyon">
+          <Key>
+            <PropertyRef Name="TelevizyonID" />
+          </Key>
+          <Property Name="TelevizyonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="Ekran" Type="nvarchar" MaxLength="15" />
+          <Property Name="EkranBoyutu" Type="varchar" MaxLength="10" />
+          <Property Name="EkranCozunurlugu" Type="nvarchar" MaxLength="20" />
+          <Property Name="SesCıkısGucu" Type="nvarchar" MaxLength="10" />
+          <Property Name="EnerjiTuketimSinifi" Type="nvarchar" MaxLength="8" />
+          <Property Name="DahiliWiFi" Type="varchar" MaxLength="3" />
+          <Property Name="GoruntuID" Type="int" />
+        </EntityType>
+        <EntityType Name="TusluTelefon">
+          <Key>
+            <PropertyRef Name="TusluTelefonID" />
+          </Key>
+          <Property Name="TusluTelefonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Markasi" Type="nvarchar" MaxLength="20" />
+          <Property Name="Modeli" Type="nvarchar" MaxLength="40" />
+          <Property Name="CikisYili" Type="varchar" MaxLength="4" />
+          <Property Name="TahminiFiyatAraligi" Type="nvarchar" MaxLength="25" />
+          <Property Name="DahiliDepolama" Type="varchar" MaxLength="10" />
+          <Property Name="RAM" Type="varchar" MaxLength="10" />
+          <Property Name="EkranBoyutu" Type="nvarchar" MaxLength="10" />
+          <Property Name="BataryaKapasitesi" Type="varchar" MaxLength="10" />
+          <Property Name="ArkaKameraÇözünürlüğü" Type="varchar" MaxLength="10" />
+          <Property Name="ÖnKameraÇözünürlüğü" Type="varchar" MaxLength="10" />
+          <Property Name="İşlemci" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ağırlık" Type="varchar" MaxLength="10" />
+          <Property Name="TelefonID" Type="int" />
+        </EntityType>
+        <EntityType Name="Urunler">
+          <Key>
+            <PropertyRef Name="UrunID" />
+          </Key>
+          <Property Name="UrunID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UrunTuru" Type="varchar" MaxLength="40" />
+          <Property Name="KategoriID" Type="int" />
+        </EntityType>
+        <Association Name="FK__AkilliTel__Telef__22AA2996">
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="0..1" />
+          <End Role="AkilliTelefon" Type="Self.AkilliTelefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telefon">
+              <PropertyRef Name="TelefonID" />
+            </Principal>
+            <Dependent Role="AkilliTelefon">
+              <PropertyRef Name="TelefonID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__BeyazEsya__Kateg__3E52440B">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="BeyazEsya">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__BeyazEsya__UrunI__3F466844">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="BeyazEsya">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bilgisaya__Kateg__31EC6D26">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Bilgisayar">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bilgisaya__UrunI__32E0915F">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Bilgisayar">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__BulasikMa__Beyaz__4222D4EF">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="BulasikMakinesi" Type="Self.BulasikMakinesi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="BulasikMakinesi">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Buzdolabi__Beyaz__47DBAE45">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="Buzdolabi" Type="Self.Buzdolabi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="Buzdolabi">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CamasirMa__Beyaz__44FF419A">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="CamasirMakinesi" Type="Self.CamasirMakinesi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="CamasirMakinesi">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DerinDond__Beyaz__4AB81AF0">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="DerinDondurucu" Type="Self.DerinDondurucu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="DerinDondurucu">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fırın__BeyazEsya__4D94879B">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="Fırın" Type="Self.Fırın" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="Fırın">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Goruntu__Kategor__286302EC">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Goruntu">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Goruntu__UrunID__29572725">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Goruntu">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Laptop__Bilgisay__38996AB5">
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="0..1" />
+          <End Role="Laptop" Type="Self.Laptop" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Principal>
+            <Dependent Role="Laptop">
+              <PropertyRef Name="BilgisayarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MasaüstüB__Bilgi__35BCFE0A">
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="0..1" />
+          <End Role="MasaüstüBilgisayar" Type="Self.MasaüstüBilgisayar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Principal>
+            <Dependent Role="MasaüstüBilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Monitor__Goruntu__2F10007B">
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="0..1" />
+          <End Role="Monitor" Type="Self.Monitor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Goruntu">
+              <PropertyRef Name="GoruntuID" />
+            </Principal>
+            <Dependent Role="Monitor">
+              <PropertyRef Name="GoruntuID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Musteri__Kullani__1367E606">
+          <End Role="Kullanici" Type="Self.Kullanici" Multiplicity="0..1" />
+          <End Role="Musteri" Type="Self.Musteri" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kullanici">
+              <PropertyRef Name="KullaniciID" />
+            </Principal>
+            <Dependent Role="Musteri">
+              <PropertyRef Name="KullaniciID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Siparis__UrunID__1B0907CE">
+          <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1" />
+          <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Musteri">
+              <PropertyRef Name="MusteriId" />
+            </Principal>
+            <Dependent Role="Siparis">
+              <PropertyRef Name="MusteriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Siparis__UrunID__1BFD2C07">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Siparis" Type="Self.Siparis" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Siparis">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tablet__Bilgisay__3B75D760">
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="0..1" />
+          <End Role="Tablet" Type="Self.Tablet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Principal>
+            <Dependent Role="Tablet">
+              <PropertyRef Name="BilgisayarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telefon__Kategor__1ED998B2">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Telefon">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telefon__UrunID__1FCDBCEB">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Telefon">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Televizyo__Gorun__2C3393D0">
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="0..1" />
+          <End Role="Televizyon" Type="Self.Televizyon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Goruntu">
+              <PropertyRef Name="GoruntuID" />
+            </Principal>
+            <Dependent Role="Televizyon">
+              <PropertyRef Name="GoruntuID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__TusluTele__Telef__25869641">
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="0..1" />
+          <End Role="TusluTelefon" Type="Self.TusluTelefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telefon">
+              <PropertyRef Name="TelefonID" />
+            </Principal>
+            <Dependent Role="TusluTelefon">
+              <PropertyRef Name="TelefonID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Urunler__Kategor__182C9B23">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Urunler">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="UrunBilgiModelStoreContainer">
+          <EntitySet Name="AkilliTelefon" EntityType="Self.AkilliTelefon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BeyazEsya" EntityType="Self.BeyazEsya" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bilgisayar" EntityType="Self.Bilgisayar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BulasikMakinesi" EntityType="Self.BulasikMakinesi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Buzdolabi" EntityType="Self.Buzdolabi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CamasirMakinesi" EntityType="Self.CamasirMakinesi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DerinDondurucu" EntityType="Self.DerinDondurucu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fırın" EntityType="Self.Fırın" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Goruntu" EntityType="Self.Goruntu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kategoriler" EntityType="Self.Kategoriler" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Laptop" EntityType="Self.Laptop" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MasaüstüBilgisayar" EntityType="Self.MasaüstüBilgisayar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Monitor" EntityType="Self.Monitor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Musteri" EntityType="Self.Musteri" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Siparis" EntityType="Self.Siparis" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tablet" EntityType="Self.Tablet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Telefon" EntityType="Self.Telefon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Televizyon" EntityType="Self.Televizyon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TusluTelefon" EntityType="Self.TusluTelefon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Urunler" EntityType="Self.Urunler" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__AkilliTel__Telef__22AA2996" Association="Self.FK__AkilliTel__Telef__22AA2996">
+            <End Role="Telefon" EntitySet="Telefon" />
+            <End Role="AkilliTelefon" EntitySet="AkilliTelefon" />
+          </AssociationSet>
+          <AssociationSet Name="FK__BeyazEsya__Kateg__3E52440B" Association="Self.FK__BeyazEsya__Kateg__3E52440B">
+            <End Role="Kategoriler" EntitySet="Kategoriler" />
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+          </AssociationSet>
+          <AssociationSet Name="FK__BeyazEsya__UrunI__3F466844" Association="Self.FK__BeyazEsya__UrunI__3F466844">
+            <End Role="Urunler" EntitySet="Urunler" />
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bilgisaya__Kateg__31EC6D26" Association="Self.FK__Bilgisaya__Kateg__31EC6D26">
+            <End Role="Kategoriler" EntitySet="Kategoriler" />
+            <End Role="Bilgisayar" EntitySet="Bilgisayar" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bilgisaya__UrunI__32E0915F" Association="Self.FK__Bilgisaya__UrunI__32E0915F">
+            <End Role="Urunler" EntitySet="Urunler" />
+            <End Role="Bilgisayar" EntitySet="Bilgisayar" />
+          </AssociationSet>
+          <AssociationSet Name="FK__BulasikMa__Beyaz__4222D4EF" Association="Self.FK__BulasikMa__Beyaz__4222D4EF">
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+            <End Role="BulasikMakinesi" EntitySet="BulasikMakinesi" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Buzdolabi__Beyaz__47DBAE45" Association="Self.FK__Buzdolabi__Beyaz__47DBAE45">
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+            <End Role="Buzdolabi" EntitySet="Buzdolabi" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CamasirMa__Beyaz__44FF419A" Association="Self.FK__CamasirMa__Beyaz__44FF419A">
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+            <End Role="CamasirMakinesi" EntitySet="CamasirMakinesi" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DerinDond__Beyaz__4AB81AF0" Association="Self.FK__DerinDond__Beyaz__4AB81AF0">
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+            <End Role="DerinDondurucu" EntitySet="DerinDondurucu" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fırın__BeyazEsya__4D94879B" Association="Self.FK__Fırın__BeyazEsya__4D94879B">
+            <End Role="BeyazEsya" EntitySet="BeyazEsya" />
+            <End Role="Fırın" EntitySet="Fırın" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Goruntu__Kategor__286302EC" Association="Self.FK__Goruntu__Kategor__286302EC">
+            <End Role="Kategoriler" EntitySet="Kategoriler" />
+            <End Role="Goruntu" EntitySet="Goruntu" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Goruntu__UrunID__29572725" Association="Self.FK__Goruntu__UrunID__29572725">
+            <End Role="Urunler" EntitySet="Urunler" />
+            <End Role="Goruntu" EntitySet="Goruntu" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Laptop__Bilgisay__38996AB5" Association="Self.FK__Laptop__Bilgisay__38996AB5">
+            <End Role="Bilgisayar" EntitySet="Bilgisayar" />
+            <End Role="Laptop" EntitySet="Laptop" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MasaüstüB__Bilgi__35BCFE0A" Association="Self.FK__MasaüstüB__Bilgi__35BCFE0A">
+            <End Role="Bilgisayar" EntitySet="Bilgisayar" />
+            <End Role="MasaüstüBilgisayar" EntitySet="MasaüstüBilgisayar" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Monitor__Goruntu__2F10007B" Association="Self.FK__Monitor__Goruntu__2F10007B">
+            <End Role="Goruntu" EntitySet="Goruntu" />
+            <End Role="Monitor" EntitySet="Monitor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Musteri__Kullani__1367E606" Association="Self.FK__Musteri__Kullani__1367E606">
+            <End Role="Kullanici" EntitySet="Kullanici" />
+            <End Role="Musteri" EntitySet="Musteri" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Siparis__UrunID__1B0907CE" Association="Self.FK__Siparis__UrunID__1B0907CE">
+            <End Role="Musteri" EntitySet="Musteri" />
+            <End Role="Siparis" EntitySet="Siparis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Siparis__UrunID__1BFD2C07" Association="Self.FK__Siparis__UrunID__1BFD2C07">
+            <End Role="Urunler" EntitySet="Urunler" />
+            <End Role="Siparis" EntitySet="Siparis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tablet__Bilgisay__3B75D760" Association="Self.FK__Tablet__Bilgisay__3B75D760">
+            <End Role="Bilgisayar" EntitySet="Bilgisayar" />
+            <End Role="Tablet" EntitySet="Tablet" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telefon__Kategor__1ED998B2" Association="Self.FK__Telefon__Kategor__1ED998B2">
+            <End Role="Kategoriler" EntitySet="Kategoriler" />
+            <End Role="Telefon" EntitySet="Telefon" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telefon__UrunID__1FCDBCEB" Association="Self.FK__Telefon__UrunID__1FCDBCEB">
+            <End Role="Urunler" EntitySet="Urunler" />
+            <End Role="Telefon" EntitySet="Telefon" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Televizyo__Gorun__2C3393D0" Association="Self.FK__Televizyo__Gorun__2C3393D0">
+            <End Role="Goruntu" EntitySet="Goruntu" />
+            <End Role="Televizyon" EntitySet="Televizyon" />
+          </AssociationSet>
+          <AssociationSet Name="FK__TusluTele__Telef__25869641" Association="Self.FK__TusluTele__Telef__25869641">
+            <End Role="Telefon" EntitySet="Telefon" />
+            <End Role="TusluTelefon" EntitySet="TusluTelefon" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Urunler__Kategor__182C9B23" Association="Self.FK__Urunler__Kategor__182C9B23">
+            <End Role="Kategoriler" EntitySet="Kategoriler" />
+            <End Role="Urunler" EntitySet="Urunler" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UrunBilgiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AkilliTelefon">
+          <Key>
+            <PropertyRef Name="AkilliTelefonID" />
+          </Key>
+          <Property Name="AkilliTelefonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="DahiliDepolama" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RAM" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EkranBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BataryaKapasitesi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ArkaKameraÇözünürlüğü" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ÖnKameraÇözünürlüğü" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Anaİşlemci" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="YongaSeti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="IsletimSistemi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="AnTuTuPuanı" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Ağırlık" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TelefonID" Type="Int32" />
+          <NavigationProperty Name="Telefon" Relationship="Self.FK__AkilliTel__Telef__22AA2996" FromRole="AkilliTelefon" ToRole="Telefon" />
+        </EntityType>
+        <EntityType Name="BeyazEsya">
+          <Key>
+            <PropertyRef Name="BeyazEsyaID" />
+          </Key>
+          <Property Name="BeyazEsyaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BeyazEsyaTuru" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="UrunID" Type="Int32" />
+          <Property Name="KategoriID" Type="Int32" />
+          <NavigationProperty Name="Kategoriler" Relationship="Self.FK__BeyazEsya__Kateg__3E52440B" FromRole="BeyazEsya" ToRole="Kategoriler" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK__BeyazEsya__UrunI__3F466844" FromRole="BeyazEsya" ToRole="Urunler" />
+          <NavigationProperty Name="BulasikMakinesis" Relationship="Self.FK__BulasikMa__Beyaz__4222D4EF" FromRole="BeyazEsya" ToRole="BulasikMakinesi" />
+          <NavigationProperty Name="Buzdolabis" Relationship="Self.FK__Buzdolabi__Beyaz__47DBAE45" FromRole="BeyazEsya" ToRole="Buzdolabi" />
+          <NavigationProperty Name="CamasirMakinesis" Relationship="Self.FK__CamasirMa__Beyaz__44FF419A" FromRole="BeyazEsya" ToRole="CamasirMakinesi" />
+          <NavigationProperty Name="DerinDondurucus" Relationship="Self.FK__DerinDond__Beyaz__4AB81AF0" FromRole="BeyazEsya" ToRole="DerinDondurucu" />
+          <NavigationProperty Name="Fırın" Relationship="Self.FK__Fırın__BeyazEsya__4D94879B" FromRole="BeyazEsya" ToRole="Fırın" />
+        </EntityType>
+        <EntityType Name="Bilgisayar">
+          <Key>
+            <PropertyRef Name="BilgisayarID" />
+          </Key>
+          <Property Name="BilgisayarID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BilgisayarTuru" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="UrunID" Type="Int32" />
+          <Property Name="KategoriID" Type="Int32" />
+          <NavigationProperty Name="Kategoriler" Relationship="Self.FK__Bilgisaya__Kateg__31EC6D26" FromRole="Bilgisayar" ToRole="Kategoriler" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK__Bilgisaya__UrunI__32E0915F" FromRole="Bilgisayar" ToRole="Urunler" />
+          <NavigationProperty Name="Laptops" Relationship="Self.FK__Laptop__Bilgisay__38996AB5" FromRole="Bilgisayar" ToRole="Laptop" />
+          <NavigationProperty Name="MasaüstüBilgisayar" Relationship="Self.FK__MasaüstüB__Bilgi__35BCFE0A" FromRole="Bilgisayar" ToRole="MasaüstüBilgisayar" />
+          <NavigationProperty Name="Tablets" Relationship="Self.FK__Tablet__Bilgisay__3B75D760" FromRole="Bilgisayar" ToRole="Tablet" />
+        </EntityType>
+        <EntityType Name="BulasikMakinesi">
+          <Key>
+            <PropertyRef Name="BulasikMakinesiID" />
+          </Key>
+          <Property Name="BulasikMakinesiID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="SuTuketimi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="SicaklikSayisi" Type="Int32" />
+          <Property Name="Kapasite" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="KullanimTipi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Guc" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BeyazEsyaID" Type="Int32" />
+          <NavigationProperty Name="BeyazEsya" Relationship="Self.FK__BulasikMa__Beyaz__4222D4EF" FromRole="BulasikMakinesi" ToRole="BeyazEsya" />
+        </EntityType>
+        <EntityType Name="Buzdolabi">
+          <Key>
+            <PropertyRef Name="BuzdolabiID" />
+          </Key>
+          <Property Name="BuzdolabiID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="SogutmaSistemi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="NetHacim" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="DondurmaKapasitesi" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="BuzdolabiTipi" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Yukseklik" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Genislik" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BeyazEsyaID" Type="Int32" />
+          <NavigationProperty Name="BeyazEsya" Relationship="Self.FK__Buzdolabi__Beyaz__47DBAE45" FromRole="Buzdolabi" ToRole="BeyazEsya" />
+        </EntityType>
+        <EntityType Name="CamasirMakinesi">
+          <Key>
+            <PropertyRef Name="CamasirMakinesiID" />
+          </Key>
+          <Property Name="CamasirMakinesiID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="KullanimTipi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="YillikSuTuketimi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="YillikEnerjiTuketimi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="YikamaKapasite" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="MaxSikmaDevri" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="BeyazEsyaID" Type="Int32" />
+          <NavigationProperty Name="BeyazEsya" Relationship="Self.FK__CamasirMa__Beyaz__44FF419A" FromRole="CamasirMakinesi" ToRole="BeyazEsya" />
+        </EntityType>
+        <EntityType Name="DerinDondurucu">
+          <Key>
+            <PropertyRef Name="DerinDondurucuID" />
+          </Key>
+          <Property Name="DerinDondurucuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="SogutmaSistemi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="CekmeceSayisi" Type="Int32" />
+          <Property Name="NetHacim" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="DondurmaKapasitesi" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="Yukseklik" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Genislik" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BeyazEsyaID" Type="Int32" />
+          <NavigationProperty Name="BeyazEsya" Relationship="Self.FK__DerinDond__Beyaz__4AB81AF0" FromRole="DerinDondurucu" ToRole="BeyazEsya" />
+        </EntityType>
+        <EntityType Name="Fırın">
+          <Key>
+            <PropertyRef Name="FırınID" />
+          </Key>
+          <Property Name="FırınID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="FirinTipi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="FonksiyonSayisi" Type="Int32" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="Yukseklik" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Genislik" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="Hacim" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BeyazEsyaID" Type="Int32" />
+          <NavigationProperty Name="BeyazEsya" Relationship="Self.FK__Fırın__BeyazEsya__4D94879B" FromRole="Fırın" ToRole="BeyazEsya" />
+        </EntityType>
+        <EntityType Name="Goruntu">
+          <Key>
+            <PropertyRef Name="GoruntuID" />
+          </Key>
+          <Property Name="GoruntuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GoruntuTuru" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="UrunID" Type="Int32" />
+          <Property Name="KategoriID" Type="Int32" />
+          <NavigationProperty Name="Kategoriler" Relationship="Self.FK__Goruntu__Kategor__286302EC" FromRole="Goruntu" ToRole="Kategoriler" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK__Goruntu__UrunID__29572725" FromRole="Goruntu" ToRole="Urunler" />
+          <NavigationProperty Name="Monitors" Relationship="Self.FK__Monitor__Goruntu__2F10007B" FromRole="Goruntu" ToRole="Monitor" />
+          <NavigationProperty Name="Televizyons" Relationship="Self.FK__Televizyo__Gorun__2C3393D0" FromRole="Goruntu" ToRole="Televizyon" />
+        </EntityType>
+        <EntityType Name="Kategoriler">
+          <Key>
+            <PropertyRef Name="KategoriID" />
+          </Key>
+          <Property Name="KategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Tanimi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="BeyazEsyas" Relationship="Self.FK__BeyazEsya__Kateg__3E52440B" FromRole="Kategoriler" ToRole="BeyazEsya" />
+          <NavigationProperty Name="Bilgisayars" Relationship="Self.FK__Bilgisaya__Kateg__31EC6D26" FromRole="Kategoriler" ToRole="Bilgisayar" />
+          <NavigationProperty Name="Goruntus" Relationship="Self.FK__Goruntu__Kategor__286302EC" FromRole="Kategoriler" ToRole="Goruntu" />
+          <NavigationProperty Name="Telefons" Relationship="Self.FK__Telefon__Kategor__1ED998B2" FromRole="Kategoriler" ToRole="Telefon" />
+          <NavigationProperty Name="Urunlers" Relationship="Self.FK__Urunler__Kategor__182C9B23" FromRole="Kategoriler" ToRole="Urunler" />
+        </EntityType>
+        <EntityType Name="Kullanici">
+          <Key>
+            <PropertyRef Name="KullaniciID" />
+          </Key>
+          <Property Name="KullaniciID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdSoyad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="KullaniciAdi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="KullaniciSifre" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Eposta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CepTelefonu" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Cinsiyet" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Musteris" Relationship="Self.FK__Musteri__Kullani__1367E606" FromRole="Kullanici" ToRole="Musteri" />
+        </EntityType>
+        <EntityType Name="Laptop">
+          <Key>
+            <PropertyRef Name="LaptopID" />
+          </Key>
+          <Property Name="LaptopID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="PanelTipi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="IslemciMarkasi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="IsletimSistemi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="IslemciNesli" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="HHDBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="SSDBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EkranKartıModeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="EkranKartiBellekMiktari" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="RAM" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="IslemciModeli" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="IslemciTemelFrekansi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="BilgisayarID" Type="Int32" />
+          <NavigationProperty Name="Bilgisayar" Relationship="Self.FK__Laptop__Bilgisay__38996AB5" FromRole="Laptop" ToRole="Bilgisayar" />
+        </EntityType>
+        <EntityType Name="MasaüstüBilgisayar">
+          <Key>
+            <PropertyRef Name="MasaüstüBilgisayarID" />
+          </Key>
+          <Property Name="MasaüstüBilgisayarID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="IslemciMarkasi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="IsletimSistemi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="IslemciNesli" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="HHDBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="SSDBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EkranKartıModeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="EkranKartiBellekMiktari" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="RAM" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="IslemciModeli" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="IslemciTemelFrekansi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="KasaTipi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="BilgisayarID" Type="Int32" />
+          <NavigationProperty Name="Bilgisayar" Relationship="Self.FK__MasaüstüB__Bilgi__35BCFE0A" FromRole="MasaüstüBilgisayar" ToRole="Bilgisayar" />
+        </EntityType>
+        <EntityType Name="Monitor">
+          <Key>
+            <PropertyRef Name="MonitorID" />
+          </Key>
+          <Property Name="MonitorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="Ekran" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EkranBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EkranTeknolojisi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="EkranCozunurlugu" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="CozunurlukStandardi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="GoruntuID" Type="Int32" />
+          <NavigationProperty Name="Goruntu" Relationship="Self.FK__Monitor__Goruntu__2F10007B" FromRole="Monitor" ToRole="Goruntu" />
+        </EntityType>
+        <EntityType Name="Musteri">
+          <Key>
+            <PropertyRef Name="MusteriId" />
+          </Key>
+          <Property Name="MusteriId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MusteriAdi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MusteriSoyadi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TelefonNumarasi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Sectikleri" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+          <Property Name="KullaniciID" Type="Int32" />
+          <NavigationProperty Name="Kullanici" Relationship="Self.FK__Musteri__Kullani__1367E606" FromRole="Musteri" ToRole="Kullanici" />
+          <NavigationProperty Name="Siparis" Relationship="Self.FK__Siparis__UrunID__1B0907CE" FromRole="Musteri" ToRole="Siparis" />
+        </EntityType>
+        <EntityType Name="Sipari">
+          <Key>
+            <PropertyRef Name="SiparisID" />
+          </Key>
+          <Property Name="SiparisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SiparisAdi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ToplamTutar" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="MusteriID" Type="Int32" />
+          <Property Name="UrunID" Type="Int32" />
+          <NavigationProperty Name="Musteri" Relationship="Self.FK__Siparis__UrunID__1B0907CE" FromRole="Siparis" ToRole="Musteri" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK__Siparis__UrunID__1BFD2C07" FromRole="Siparis" ToRole="Urunler" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tablet">
+          <Key>
+            <PropertyRef Name="TabletID" />
+          </Key>
+          <Property Name="TabletID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="EkranBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BataryaKapasitesi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ArkaKameraÇözünürlüğü" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ÖnKameraÇözünürlüğü" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="IsletimSistemi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="IslemciTemelFrekansi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Anaİşlemci" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="YongaSeti" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DahiliDepolama" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RAM" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BilgisayarID" Type="Int32" />
+          <NavigationProperty Name="Bilgisayar" Relationship="Self.FK__Tablet__Bilgisay__3B75D760" FromRole="Tablet" ToRole="Bilgisayar" />
+        </EntityType>
+        <EntityType Name="Telefon">
+          <Key>
+            <PropertyRef Name="TelefonID" />
+          </Key>
+          <Property Name="TelefonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TelefonTuru" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="UrunID" Type="Int32" />
+          <Property Name="KategoriID" Type="Int32" />
+          <NavigationProperty Name="AkilliTelefons" Relationship="Self.FK__AkilliTel__Telef__22AA2996" FromRole="Telefon" ToRole="AkilliTelefon" />
+          <NavigationProperty Name="Kategoriler" Relationship="Self.FK__Telefon__Kategor__1ED998B2" FromRole="Telefon" ToRole="Kategoriler" />
+          <NavigationProperty Name="Urunler" Relationship="Self.FK__Telefon__UrunID__1FCDBCEB" FromRole="Telefon" ToRole="Urunler" />
+          <NavigationProperty Name="TusluTelefons" Relationship="Self.FK__TusluTele__Telef__25869641" FromRole="Telefon" ToRole="TusluTelefon" />
+        </EntityType>
+        <EntityType Name="Televizyon">
+          <Key>
+            <PropertyRef Name="TelevizyonID" />
+          </Key>
+          <Property Name="TelevizyonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="Ekran" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="EkranBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EkranCozunurlugu" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="SesCıkısGucu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="EnerjiTuketimSinifi" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+          <Property Name="DahiliWiFi" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="GoruntuID" Type="Int32" />
+          <NavigationProperty Name="Goruntu" Relationship="Self.FK__Televizyo__Gorun__2C3393D0" FromRole="Televizyon" ToRole="Goruntu" />
+        </EntityType>
+        <EntityType Name="TusluTelefon">
+          <Key>
+            <PropertyRef Name="TusluTelefonID" />
+          </Key>
+          <Property Name="TusluTelefonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Markasi" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Modeli" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="CikisYili" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="TahminiFiyatAraligi" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="DahiliDepolama" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="RAM" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EkranBoyutu" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BataryaKapasitesi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ArkaKameraÇözünürlüğü" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="ÖnKameraÇözünürlüğü" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="İşlemci" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ağırlık" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="TelefonID" Type="Int32" />
+          <NavigationProperty Name="Telefon" Relationship="Self.FK__TusluTele__Telef__25869641" FromRole="TusluTelefon" ToRole="Telefon" />
+        </EntityType>
+        <EntityType Name="Urunler">
+          <Key>
+            <PropertyRef Name="UrunID" />
+          </Key>
+          <Property Name="UrunID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UrunTuru" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="KategoriID" Type="Int32" />
+          <NavigationProperty Name="BeyazEsyas" Relationship="Self.FK__BeyazEsya__UrunI__3F466844" FromRole="Urunler" ToRole="BeyazEsya" />
+          <NavigationProperty Name="Bilgisayars" Relationship="Self.FK__Bilgisaya__UrunI__32E0915F" FromRole="Urunler" ToRole="Bilgisayar" />
+          <NavigationProperty Name="Goruntus" Relationship="Self.FK__Goruntu__UrunID__29572725" FromRole="Urunler" ToRole="Goruntu" />
+          <NavigationProperty Name="Kategoriler" Relationship="Self.FK__Urunler__Kategor__182C9B23" FromRole="Urunler" ToRole="Kategoriler" />
+          <NavigationProperty Name="Siparis" Relationship="Self.FK__Siparis__UrunID__1BFD2C07" FromRole="Urunler" ToRole="Siparis" />
+          <NavigationProperty Name="Telefons" Relationship="Self.FK__Telefon__UrunID__1FCDBCEB" FromRole="Urunler" ToRole="Telefon" />
+        </EntityType>
+        <Association Name="FK__AkilliTel__Telef__22AA2996">
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="0..1" />
+          <End Role="AkilliTelefon" Type="Self.AkilliTelefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telefon">
+              <PropertyRef Name="TelefonID" />
+            </Principal>
+            <Dependent Role="AkilliTelefon">
+              <PropertyRef Name="TelefonID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__BeyazEsya__Kateg__3E52440B">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="BeyazEsya">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__BeyazEsya__UrunI__3F466844">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="BeyazEsya">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__BulasikMa__Beyaz__4222D4EF">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="BulasikMakinesi" Type="Self.BulasikMakinesi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="BulasikMakinesi">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Buzdolabi__Beyaz__47DBAE45">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="Buzdolabi" Type="Self.Buzdolabi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="Buzdolabi">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__CamasirMa__Beyaz__44FF419A">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="CamasirMakinesi" Type="Self.CamasirMakinesi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="CamasirMakinesi">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DerinDond__Beyaz__4AB81AF0">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="DerinDondurucu" Type="Self.DerinDondurucu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="DerinDondurucu">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fırın__BeyazEsya__4D94879B">
+          <End Role="BeyazEsya" Type="Self.BeyazEsya" Multiplicity="0..1" />
+          <End Role="Fırın" Type="Self.Fırın" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BeyazEsya">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Principal>
+            <Dependent Role="Fırın">
+              <PropertyRef Name="BeyazEsyaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bilgisaya__Kateg__31EC6D26">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Bilgisayar">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bilgisaya__UrunI__32E0915F">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Bilgisayar">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Laptop__Bilgisay__38996AB5">
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="0..1" />
+          <End Role="Laptop" Type="Self.Laptop" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Principal>
+            <Dependent Role="Laptop">
+              <PropertyRef Name="BilgisayarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__MasaüstüB__Bilgi__35BCFE0A">
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="0..1" />
+          <End Role="MasaüstüBilgisayar" Type="Self.MasaüstüBilgisayar" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Principal>
+            <Dependent Role="MasaüstüBilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Tablet__Bilgisay__3B75D760">
+          <End Role="Bilgisayar" Type="Self.Bilgisayar" Multiplicity="0..1" />
+          <End Role="Tablet" Type="Self.Tablet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bilgisayar">
+              <PropertyRef Name="BilgisayarID" />
+            </Principal>
+            <Dependent Role="Tablet">
+              <PropertyRef Name="BilgisayarID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Goruntu__Kategor__286302EC">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Goruntu">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Goruntu__UrunID__29572725">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Goruntu">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Monitor__Goruntu__2F10007B">
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="0..1" />
+          <End Role="Monitor" Type="Self.Monitor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Goruntu">
+              <PropertyRef Name="GoruntuID" />
+            </Principal>
+            <Dependent Role="Monitor">
+              <PropertyRef Name="GoruntuID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Televizyo__Gorun__2C3393D0">
+          <End Role="Goruntu" Type="Self.Goruntu" Multiplicity="0..1" />
+          <End Role="Televizyon" Type="Self.Televizyon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Goruntu">
+              <PropertyRef Name="GoruntuID" />
+            </Principal>
+            <Dependent Role="Televizyon">
+              <PropertyRef Name="GoruntuID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telefon__Kategor__1ED998B2">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Telefon">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Urunler__Kategor__182C9B23">
+          <End Role="Kategoriler" Type="Self.Kategoriler" Multiplicity="0..1" />
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategoriler">
+              <PropertyRef Name="KategoriID" />
+            </Principal>
+            <Dependent Role="Urunler">
+              <PropertyRef Name="KategoriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Musteri__Kullani__1367E606">
+          <End Role="Kullanici" Type="Self.Kullanici" Multiplicity="0..1" />
+          <End Role="Musteri" Type="Self.Musteri" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kullanici">
+              <PropertyRef Name="KullaniciID" />
+            </Principal>
+            <Dependent Role="Musteri">
+              <PropertyRef Name="KullaniciID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Siparis__UrunID__1B0907CE">
+          <End Role="Musteri" Type="Self.Musteri" Multiplicity="0..1" />
+          <End Role="Siparis" Type="Self.Sipari" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Musteri">
+              <PropertyRef Name="MusteriId" />
+            </Principal>
+            <Dependent Role="Siparis">
+              <PropertyRef Name="MusteriID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Siparis__UrunID__1BFD2C07">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Siparis" Type="Self.Sipari" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Siparis">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Telefon__UrunID__1FCDBCEB">
+          <End Role="Urunler" Type="Self.Urunler" Multiplicity="0..1" />
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Urunler">
+              <PropertyRef Name="UrunID" />
+            </Principal>
+            <Dependent Role="Telefon">
+              <PropertyRef Name="UrunID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__TusluTele__Telef__25869641">
+          <End Role="Telefon" Type="Self.Telefon" Multiplicity="0..1" />
+          <End Role="TusluTelefon" Type="Self.TusluTelefon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Telefon">
+              <PropertyRef Name="TelefonID" />
+            </Principal>
+            <Dependent Role="TusluTelefon">
+              <PropertyRef Name="TelefonID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="UrunBilgiEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AkilliTelefons" EntityType="Self.AkilliTelefon" />
+          <EntitySet Name="BeyazEsyas" EntityType="Self.BeyazEsya" />
+          <EntitySet Name="Bilgisayars" EntityType="Self.Bilgisayar" />
+          <EntitySet Name="BulasikMakinesis" EntityType="Self.BulasikMakinesi" />
+          <EntitySet Name="Buzdolabis" EntityType="Self.Buzdolabi" />
+          <EntitySet Name="CamasirMakinesis" EntityType="Self.CamasirMakinesi" />
+          <EntitySet Name="DerinDondurucus" EntityType="Self.DerinDondurucu" />
+          <EntitySet Name="Fırın" EntityType="Self.Fırın" />
+          <EntitySet Name="Goruntus" EntityType="Self.Goruntu" />
+          <EntitySet Name="Kategorilers" EntityType="Self.Kategoriler" />
+          <EntitySet Name="Kullanicis" EntityType="Self.Kullanici" />
+          <EntitySet Name="Laptops" EntityType="Self.Laptop" />
+          <EntitySet Name="MasaüstüBilgisayar" EntityType="Self.MasaüstüBilgisayar" />
+          <EntitySet Name="Monitors" EntityType="Self.Monitor" />
+          <EntitySet Name="Musteris" EntityType="Self.Musteri" />
+          <EntitySet Name="Siparis" EntityType="Self.Sipari" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="Tablets" EntityType="Self.Tablet" />
+          <EntitySet Name="Telefons" EntityType="Self.Telefon" />
+          <EntitySet Name="Televizyons" EntityType="Self.Televizyon" />
+          <EntitySet Name="TusluTelefons" EntityType="Self.TusluTelefon" />
+          <EntitySet Name="Urunlers" EntityType="Self.Urunler" />
+          <AssociationSet Name="FK__AkilliTel__Telef__22AA2996" Association="Self.FK__AkilliTel__Telef__22AA2996">
+            <End Role="Telefon" EntitySet="Telefons" />
+            <End Role="AkilliTelefon" EntitySet="AkilliTelefons" />
+          </AssociationSet>
+          <AssociationSet Name="FK__BeyazEsya__Kateg__3E52440B" Association="Self.FK__BeyazEsya__Kateg__3E52440B">
+            <End Role="Kategoriler" EntitySet="Kategorilers" />
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__BeyazEsya__UrunI__3F466844" Association="Self.FK__BeyazEsya__UrunI__3F466844">
+            <End Role="Urunler" EntitySet="Urunlers" />
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+          </AssociationSet>
+          <AssociationSet Name="FK__BulasikMa__Beyaz__4222D4EF" Association="Self.FK__BulasikMa__Beyaz__4222D4EF">
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+            <End Role="BulasikMakinesi" EntitySet="BulasikMakinesis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Buzdolabi__Beyaz__47DBAE45" Association="Self.FK__Buzdolabi__Beyaz__47DBAE45">
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+            <End Role="Buzdolabi" EntitySet="Buzdolabis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__CamasirMa__Beyaz__44FF419A" Association="Self.FK__CamasirMa__Beyaz__44FF419A">
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+            <End Role="CamasirMakinesi" EntitySet="CamasirMakinesis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DerinDond__Beyaz__4AB81AF0" Association="Self.FK__DerinDond__Beyaz__4AB81AF0">
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+            <End Role="DerinDondurucu" EntitySet="DerinDondurucus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fırın__BeyazEsya__4D94879B" Association="Self.FK__Fırın__BeyazEsya__4D94879B">
+            <End Role="BeyazEsya" EntitySet="BeyazEsyas" />
+            <End Role="Fırın" EntitySet="Fırın" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bilgisaya__Kateg__31EC6D26" Association="Self.FK__Bilgisaya__Kateg__31EC6D26">
+            <End Role="Kategoriler" EntitySet="Kategorilers" />
+            <End Role="Bilgisayar" EntitySet="Bilgisayars" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bilgisaya__UrunI__32E0915F" Association="Self.FK__Bilgisaya__UrunI__32E0915F">
+            <End Role="Urunler" EntitySet="Urunlers" />
+            <End Role="Bilgisayar" EntitySet="Bilgisayars" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Laptop__Bilgisay__38996AB5" Association="Self.FK__Laptop__Bilgisay__38996AB5">
+            <End Role="Bilgisayar" EntitySet="Bilgisayars" />
+            <End Role="Laptop" EntitySet="Laptops" />
+          </AssociationSet>
+          <AssociationSet Name="FK__MasaüstüB__Bilgi__35BCFE0A" Association="Self.FK__MasaüstüB__Bilgi__35BCFE0A">
+            <End Role="Bilgisayar" EntitySet="Bilgisayars" />
+            <End Role="MasaüstüBilgisayar" EntitySet="MasaüstüBilgisayar" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Tablet__Bilgisay__3B75D760" Association="Self.FK__Tablet__Bilgisay__3B75D760">
+            <End Role="Bilgisayar" EntitySet="Bilgisayars" />
+            <End Role="Tablet" EntitySet="Tablets" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Goruntu__Kategor__286302EC" Association="Self.FK__Goruntu__Kategor__286302EC">
+            <End Role="Kategoriler" EntitySet="Kategorilers" />
+            <End Role="Goruntu" EntitySet="Goruntus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Goruntu__UrunID__29572725" Association="Self.FK__Goruntu__UrunID__29572725">
+            <End Role="Urunler" EntitySet="Urunlers" />
+            <End Role="Goruntu" EntitySet="Goruntus" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Monitor__Goruntu__2F10007B" Association="Self.FK__Monitor__Goruntu__2F10007B">
+            <End Role="Goruntu" EntitySet="Goruntus" />
+            <End Role="Monitor" EntitySet="Monitors" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Televizyo__Gorun__2C3393D0" Association="Self.FK__Televizyo__Gorun__2C3393D0">
+            <End Role="Goruntu" EntitySet="Goruntus" />
+            <End Role="Televizyon" EntitySet="Televizyons" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telefon__Kategor__1ED998B2" Association="Self.FK__Telefon__Kategor__1ED998B2">
+            <End Role="Kategoriler" EntitySet="Kategorilers" />
+            <End Role="Telefon" EntitySet="Telefons" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Urunler__Kategor__182C9B23" Association="Self.FK__Urunler__Kategor__182C9B23">
+            <End Role="Kategoriler" EntitySet="Kategorilers" />
+            <End Role="Urunler" EntitySet="Urunlers" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Musteri__Kullani__1367E606" Association="Self.FK__Musteri__Kullani__1367E606">
+            <End Role="Kullanici" EntitySet="Kullanicis" />
+            <End Role="Musteri" EntitySet="Musteris" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Siparis__UrunID__1B0907CE" Association="Self.FK__Siparis__UrunID__1B0907CE">
+            <End Role="Musteri" EntitySet="Musteris" />
+            <End Role="Siparis" EntitySet="Siparis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Siparis__UrunID__1BFD2C07" Association="Self.FK__Siparis__UrunID__1BFD2C07">
+            <End Role="Urunler" EntitySet="Urunlers" />
+            <End Role="Siparis" EntitySet="Siparis" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Telefon__UrunID__1FCDBCEB" Association="Self.FK__Telefon__UrunID__1FCDBCEB">
+            <End Role="Urunler" EntitySet="Urunlers" />
+            <End Role="Telefon" EntitySet="Telefons" />
+          </AssociationSet>
+          <AssociationSet Name="FK__TusluTele__Telef__25869641" Association="Self.FK__TusluTele__Telef__25869641">
+            <End Role="Telefon" EntitySet="Telefons" />
+            <End Role="TusluTelefon" EntitySet="TusluTelefons" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UrunBilgiModelStoreContainer" CdmEntityContainer="UrunBilgiEntities">
+          <EntitySetMapping Name="AkilliTelefons">
+            <EntityTypeMapping TypeName="UrunBilgiModel.AkilliTelefon">
+              <MappingFragment StoreEntitySet="AkilliTelefon">
+                <ScalarProperty Name="AkilliTelefonID" ColumnName="AkilliTelefonID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="DahiliDepolama" ColumnName="DahiliDepolama" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="EkranBoyutu" ColumnName="EkranBoyutu" />
+                <ScalarProperty Name="BataryaKapasitesi" ColumnName="BataryaKapasitesi" />
+                <ScalarProperty Name="ArkaKameraÇözünürlüğü" ColumnName="ArkaKameraÇözünürlüğü" />
+                <ScalarProperty Name="ÖnKameraÇözünürlüğü" ColumnName="ÖnKameraÇözünürlüğü" />
+                <ScalarProperty Name="Anaİşlemci" ColumnName="Anaİşlemci" />
+                <ScalarProperty Name="YongaSeti" ColumnName="YongaSeti" />
+                <ScalarProperty Name="IsletimSistemi" ColumnName="IsletimSistemi" />
+                <ScalarProperty Name="AnTuTuPuanı" ColumnName="AnTuTuPuanı" />
+                <ScalarProperty Name="Ağırlık" ColumnName="Ağırlık" />
+                <ScalarProperty Name="TelefonID" ColumnName="TelefonID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BeyazEsyas">
+            <EntityTypeMapping TypeName="UrunBilgiModel.BeyazEsya">
+              <MappingFragment StoreEntitySet="BeyazEsya">
+                <ScalarProperty Name="BeyazEsyaID" ColumnName="BeyazEsyaID" />
+                <ScalarProperty Name="BeyazEsyaTuru" ColumnName="BeyazEsyaTuru" />
+                <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+                <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bilgisayars">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Bilgisayar">
+              <MappingFragment StoreEntitySet="Bilgisayar">
+                <ScalarProperty Name="BilgisayarID" ColumnName="BilgisayarID" />
+                <ScalarProperty Name="BilgisayarTuru" ColumnName="BilgisayarTuru" />
+                <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+                <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="BulasikMakinesis">
+            <EntityTypeMapping TypeName="UrunBilgiModel.BulasikMakinesi">
+              <MappingFragment StoreEntitySet="BulasikMakinesi">
+                <ScalarProperty Name="BulasikMakinesiID" ColumnName="BulasikMakinesiID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="SuTuketimi" ColumnName="SuTuketimi" />
+                <ScalarProperty Name="SicaklikSayisi" ColumnName="SicaklikSayisi" />
+                <ScalarProperty Name="Kapasite" ColumnName="Kapasite" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="KullanimTipi" ColumnName="KullanimTipi" />
+                <ScalarProperty Name="Guc" ColumnName="Guc" />
+                <ScalarProperty Name="BeyazEsyaID" ColumnName="BeyazEsyaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Buzdolabis">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Buzdolabi">
+              <MappingFragment StoreEntitySet="Buzdolabi">
+                <ScalarProperty Name="BuzdolabiID" ColumnName="BuzdolabiID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="SogutmaSistemi" ColumnName="SogutmaSistemi" />
+                <ScalarProperty Name="NetHacim" ColumnName="NetHacim" />
+                <ScalarProperty Name="DondurmaKapasitesi" ColumnName="DondurmaKapasitesi" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="BuzdolabiTipi" ColumnName="BuzdolabiTipi" />
+                <ScalarProperty Name="Yukseklik" ColumnName="Yukseklik" />
+                <ScalarProperty Name="Genislik" ColumnName="Genislik" />
+                <ScalarProperty Name="BeyazEsyaID" ColumnName="BeyazEsyaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CamasirMakinesis">
+            <EntityTypeMapping TypeName="UrunBilgiModel.CamasirMakinesi">
+              <MappingFragment StoreEntitySet="CamasirMakinesi">
+                <ScalarProperty Name="CamasirMakinesiID" ColumnName="CamasirMakinesiID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="KullanimTipi" ColumnName="KullanimTipi" />
+                <ScalarProperty Name="YillikSuTuketimi" ColumnName="YillikSuTuketimi" />
+                <ScalarProperty Name="YillikEnerjiTuketimi" ColumnName="YillikEnerjiTuketimi" />
+                <ScalarProperty Name="YikamaKapasite" ColumnName="YikamaKapasite" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="MaxSikmaDevri" ColumnName="MaxSikmaDevri" />
+                <ScalarProperty Name="BeyazEsyaID" ColumnName="BeyazEsyaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DerinDondurucus">
+            <EntityTypeMapping TypeName="UrunBilgiModel.DerinDondurucu">
+              <MappingFragment StoreEntitySet="DerinDondurucu">
+                <ScalarProperty Name="DerinDondurucuID" ColumnName="DerinDondurucuID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="SogutmaSistemi" ColumnName="SogutmaSistemi" />
+                <ScalarProperty Name="CekmeceSayisi" ColumnName="CekmeceSayisi" />
+                <ScalarProperty Name="NetHacim" ColumnName="NetHacim" />
+                <ScalarProperty Name="DondurmaKapasitesi" ColumnName="DondurmaKapasitesi" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="Yukseklik" ColumnName="Yukseklik" />
+                <ScalarProperty Name="Genislik" ColumnName="Genislik" />
+                <ScalarProperty Name="BeyazEsyaID" ColumnName="BeyazEsyaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fırın">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Fırın">
+              <MappingFragment StoreEntitySet="Fırın">
+                <ScalarProperty Name="FırınID" ColumnName="FırınID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="FirinTipi" ColumnName="FirinTipi" />
+                <ScalarProperty Name="FonksiyonSayisi" ColumnName="FonksiyonSayisi" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="Yukseklik" ColumnName="Yukseklik" />
+                <ScalarProperty Name="Genislik" ColumnName="Genislik" />
+                <ScalarProperty Name="Hacim" ColumnName="Hacim" />
+                <ScalarProperty Name="BeyazEsyaID" ColumnName="BeyazEsyaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Goruntus">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Goruntu">
+              <MappingFragment StoreEntitySet="Goruntu">
+                <ScalarProperty Name="GoruntuID" ColumnName="GoruntuID" />
+                <ScalarProperty Name="GoruntuTuru" ColumnName="GoruntuTuru" />
+                <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+                <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kategorilers">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Kategoriler">
+              <MappingFragment StoreEntitySet="Kategoriler">
+                <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+                <ScalarProperty Name="Tanimi" ColumnName="Tanimi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kullanicis">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Kullanici">
+              <MappingFragment StoreEntitySet="Kullanici">
+                <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+                <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+                <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+                <ScalarProperty Name="KullaniciSifre" ColumnName="KullaniciSifre" />
+                <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+                <ScalarProperty Name="CepTelefonu" ColumnName="CepTelefonu" />
+                <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Laptops">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Laptop">
+              <MappingFragment StoreEntitySet="Laptop">
+                <ScalarProperty Name="LaptopID" ColumnName="LaptopID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="PanelTipi" ColumnName="PanelTipi" />
+                <ScalarProperty Name="IslemciMarkasi" ColumnName="IslemciMarkasi" />
+                <ScalarProperty Name="IsletimSistemi" ColumnName="IsletimSistemi" />
+                <ScalarProperty Name="IslemciNesli" ColumnName="IslemciNesli" />
+                <ScalarProperty Name="HHDBoyutu" ColumnName="HHDBoyutu" />
+                <ScalarProperty Name="SSDBoyutu" ColumnName="SSDBoyutu" />
+                <ScalarProperty Name="EkranKartıModeli" ColumnName="EkranKartıModeli" />
+                <ScalarProperty Name="EkranKartiBellekMiktari" ColumnName="EkranKartiBellekMiktari" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="IslemciModeli" ColumnName="IslemciModeli" />
+                <ScalarProperty Name="IslemciTemelFrekansi" ColumnName="IslemciTemelFrekansi" />
+                <ScalarProperty Name="BilgisayarID" ColumnName="BilgisayarID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MasaüstüBilgisayar">
+            <EntityTypeMapping TypeName="UrunBilgiModel.MasaüstüBilgisayar">
+              <MappingFragment StoreEntitySet="MasaüstüBilgisayar">
+                <ScalarProperty Name="MasaüstüBilgisayarID" ColumnName="MasaüstüBilgisayarID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="IslemciMarkasi" ColumnName="IslemciMarkasi" />
+                <ScalarProperty Name="IsletimSistemi" ColumnName="IsletimSistemi" />
+                <ScalarProperty Name="IslemciNesli" ColumnName="IslemciNesli" />
+                <ScalarProperty Name="HHDBoyutu" ColumnName="HHDBoyutu" />
+                <ScalarProperty Name="SSDBoyutu" ColumnName="SSDBoyutu" />
+                <ScalarProperty Name="EkranKartıModeli" ColumnName="EkranKartıModeli" />
+                <ScalarProperty Name="EkranKartiBellekMiktari" ColumnName="EkranKartiBellekMiktari" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="IslemciModeli" ColumnName="IslemciModeli" />
+                <ScalarProperty Name="IslemciTemelFrekansi" ColumnName="IslemciTemelFrekansi" />
+                <ScalarProperty Name="KasaTipi" ColumnName="KasaTipi" />
+                <ScalarProperty Name="BilgisayarID" ColumnName="BilgisayarID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Monitors">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Monitor">
+              <MappingFragment StoreEntitySet="Monitor">
+                <ScalarProperty Name="MonitorID" ColumnName="MonitorID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="Ekran" ColumnName="Ekran" />
+                <ScalarProperty Name="EkranBoyutu" ColumnName="EkranBoyutu" />
+                <ScalarProperty Name="EkranTeknolojisi" ColumnName="EkranTeknolojisi" />
+                <ScalarProperty Name="EkranCozunurlugu" ColumnName="EkranCozunurlugu" />
+                <ScalarProperty Name="CozunurlukStandardi" ColumnName="CozunurlukStandardi" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="GoruntuID" ColumnName="GoruntuID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Musteris">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Musteri">
+              <MappingFragment StoreEntitySet="Musteri">
+                <ScalarProperty Name="MusteriId" ColumnName="MusteriId" />
+                <ScalarProperty Name="MusteriAdi" ColumnName="MusteriAdi" />
+                <ScalarProperty Name="MusteriSoyadi" ColumnName="MusteriSoyadi" />
+                <ScalarProperty Name="TelefonNumarasi" ColumnName="TelefonNumarasi" />
+                <ScalarProperty Name="Sectikleri" ColumnName="Sectikleri" />
+                <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Siparis">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Sipari">
+              <MappingFragment StoreEntitySet="Siparis">
+                <ScalarProperty Name="SiparisID" ColumnName="SiparisID" />
+                <ScalarProperty Name="SiparisAdi" ColumnName="SiparisAdi" />
+                <ScalarProperty Name="ToplamTutar" ColumnName="ToplamTutar" />
+                <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+                <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="UrunBilgiModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tablets">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Tablet">
+              <MappingFragment StoreEntitySet="Tablet">
+                <ScalarProperty Name="TabletID" ColumnName="TabletID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="EkranBoyutu" ColumnName="EkranBoyutu" />
+                <ScalarProperty Name="BataryaKapasitesi" ColumnName="BataryaKapasitesi" />
+                <ScalarProperty Name="ArkaKameraÇözünürlüğü" ColumnName="ArkaKameraÇözünürlüğü" />
+                <ScalarProperty Name="ÖnKameraÇözünürlüğü" ColumnName="ÖnKameraÇözünürlüğü" />
+                <ScalarProperty Name="IsletimSistemi" ColumnName="IsletimSistemi" />
+                <ScalarProperty Name="IslemciTemelFrekansi" ColumnName="IslemciTemelFrekansi" />
+                <ScalarProperty Name="Anaİşlemci" ColumnName="Anaİşlemci" />
+                <ScalarProperty Name="YongaSeti" ColumnName="YongaSeti" />
+                <ScalarProperty Name="DahiliDepolama" ColumnName="DahiliDepolama" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="BilgisayarID" ColumnName="BilgisayarID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Telefons">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Telefon">
+              <MappingFragment StoreEntitySet="Telefon">
+                <ScalarProperty Name="TelefonID" ColumnName="TelefonID" />
+                <ScalarProperty Name="TelefonTuru" ColumnName="TelefonTuru" />
+                <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+                <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Televizyons">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Televizyon">
+              <MappingFragment StoreEntitySet="Televizyon">
+                <ScalarProperty Name="TelevizyonID" ColumnName="TelevizyonID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="Ekran" ColumnName="Ekran" />
+                <ScalarProperty Name="EkranBoyutu" ColumnName="EkranBoyutu" />
+                <ScalarProperty Name="EkranCozunurlugu" ColumnName="EkranCozunurlugu" />
+                <ScalarProperty Name="SesCıkısGucu" ColumnName="SesCıkısGucu" />
+                <ScalarProperty Name="EnerjiTuketimSinifi" ColumnName="EnerjiTuketimSinifi" />
+                <ScalarProperty Name="DahiliWiFi" ColumnName="DahiliWiFi" />
+                <ScalarProperty Name="GoruntuID" ColumnName="GoruntuID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TusluTelefons">
+            <EntityTypeMapping TypeName="UrunBilgiModel.TusluTelefon">
+              <MappingFragment StoreEntitySet="TusluTelefon">
+                <ScalarProperty Name="TusluTelefonID" ColumnName="TusluTelefonID" />
+                <ScalarProperty Name="Markasi" ColumnName="Markasi" />
+                <ScalarProperty Name="Modeli" ColumnName="Modeli" />
+                <ScalarProperty Name="CikisYili" ColumnName="CikisYili" />
+                <ScalarProperty Name="TahminiFiyatAraligi" ColumnName="TahminiFiyatAraligi" />
+                <ScalarProperty Name="DahiliDepolama" ColumnName="DahiliDepolama" />
+                <ScalarProperty Name="RAM" ColumnName="RAM" />
+                <ScalarProperty Name="EkranBoyutu" ColumnName="EkranBoyutu" />
+                <ScalarProperty Name="BataryaKapasitesi" ColumnName="BataryaKapasitesi" />
+                <ScalarProperty Name="ArkaKameraÇözünürlüğü" ColumnName="ArkaKameraÇözünürlüğü" />
+                <ScalarProperty Name="ÖnKameraÇözünürlüğü" ColumnName="ÖnKameraÇözünürlüğü" />
+                <ScalarProperty Name="İşlemci" ColumnName="İşlemci" />
+                <ScalarProperty Name="Ağırlık" ColumnName="Ağırlık" />
+                <ScalarProperty Name="TelefonID" ColumnName="TelefonID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Urunlers">
+            <EntityTypeMapping TypeName="UrunBilgiModel.Urunler">
+              <MappingFragment StoreEntitySet="Urunler">
+                <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+                <ScalarProperty Name="UrunTuru" ColumnName="UrunTuru" />
+                <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

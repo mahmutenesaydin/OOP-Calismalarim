@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Facade\DH Facade\bin\Debug\DH Facade.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Facade\DH Facade\bin\Debug\DH Facade.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Facade\DH Facade\bin\Debug\DH Facade.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Facade\DH Facade\obj\Debug\DH Facade.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Facade\DH Facade\obj\Debug\DH Facade.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Facade\DH Facade\obj\Debug\DH Facade.pdb

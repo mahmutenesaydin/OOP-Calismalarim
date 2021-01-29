@@ -1,0 +1,10 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\bin\Debug\OOP Ders 1(MYDers32)-Class ve Object.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\bin\Debug\OOP Ders 1(MYDers32)-Class ve Object.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\bin\Debug\OOP Ders 1(MYDers32)-Class ve Object.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP Ders 1(MYDers32)-Class ve Object.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP_Ders_1_MYDers32__Class_ve_Object.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP_Ders_1_MYDers32__Class_ve_Object.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP Ders 1(MYDers32)-Class ve Object.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP Ders 1(MYDers32)-Class ve Object.exe
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP Ders 1(MYDers32)-Class ve Object.pdb
+c:\users\abc\documents\visual studio 2015\Projects\OOP Ders 1(MYDers32)-Class ve Object\OOP Ders 1(MYDers32)-Class ve Object\obj\Debug\OOP_Ders_1_MYDers32__Class_ve_Object.Form2.resources

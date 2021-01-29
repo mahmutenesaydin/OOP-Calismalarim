@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FacadeDBModelStoreContainer" CdmEntityContainer="FacadeDBEntities">
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="FacadeDBModel.Bank">
+        <MappingFragment StoreEntitySet="Banks">
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerAmount" ColumnName="CustomerAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Credits">
+      <EntityTypeMapping TypeName="FacadeDBModel.Credit">
+        <MappingFragment StoreEntitySet="Credits">
+          <ScalarProperty Name="CreditID" ColumnName="CreditID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CreditAmount" ColumnName="CreditAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="FacadeDBModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loans">
+      <EntityTypeMapping TypeName="FacadeDBModel.Loan">
+        <MappingFragment StoreEntitySet="Loans">
+          <ScalarProperty Name="LoanID" ColumnName="LoanID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="LoanAmount" ColumnName="LoanAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

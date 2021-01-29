@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\OOP (ŞA Hafta 1) OOPIntro1\OOP (ŞA Hafta 1) OOPIntro1\bin\Debug\OOP (ŞA Hafta 1) OOPIntro1.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\OOP (ŞA Hafta 1) OOPIntro1\OOP (ŞA Hafta 1) OOPIntro1\bin\Debug\OOP (ŞA Hafta 1) OOPIntro1.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\OOP (ŞA Hafta 1) OOPIntro1\OOP (ŞA Hafta 1) OOPIntro1\bin\Debug\OOP (ŞA Hafta 1) OOPIntro1.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\OOP (ŞA Hafta 1) OOPIntro1\OOP (ŞA Hafta 1) OOPIntro1\obj\Debug\OOP (ŞA Hafta 1) OOPIntro1.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\OOP (ŞA Hafta 1) OOPIntro1\OOP (ŞA Hafta 1) OOPIntro1\obj\Debug\OOP (ŞA Hafta 1) OOPIntro1.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Şahin Aydın\OOP (ŞA Hafta 1) OOPIntro1\OOP (ŞA Hafta 1) OOPIntro1\obj\Debug\OOP (ŞA Hafta 1) OOPIntro1.pdb

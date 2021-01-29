@@ -1,0 +1,9 @@
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\bin\Debug\ŞA Facade.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\bin\Debug\ŞA Facade.exe
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\bin\Debug\ŞA Facade.pdb
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\obj\Debug\ŞA Facade.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\obj\Debug\ŞA_Facade.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\obj\Debug\ŞA Facade.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\obj\Debug\ŞA Facade.exe
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\obj\Debug\ŞA Facade.pdb
+c:\users\abc\documents\visual studio 2015\Projects\ŞA Facade\ŞA Facade\obj\Debug\ŞA_Facade.Form1.resources

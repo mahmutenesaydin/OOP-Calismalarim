@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="64efc00bdd554c5f8b6a1ebe94b6fe85" Name="Diagram1">
+        <EntityTypeShape EntityType="UrunBilgiModel.AkilliTelefon" Width="1.5" PointX="7.5" PointY="80.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.BeyazEsya" Width="1.5" PointX="5.25" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Bilgisayar" Width="1.5" PointX="8.25" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.BulasikMakinesi" Width="1.5" PointX="7.5" PointY="47.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Buzdolabi" Width="1.5" PointX="7.5" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.CamasirMakinesi" Width="1.5" PointX="7.5" PointY="67.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.DerinDondurucu" Width="1.5" PointX="7.5" PointY="71.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Fırın" Width="1.5" PointX="7.5" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Goruntu" Width="1.5" PointX="5.25" PointY="54.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Kategoriler" Width="1.5" PointX="0.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Kullanici" Width="1.5" PointX="0.75" PointY="81.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Laptop" Width="1.5" PointX="10.5" PointY="52.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.MasaüstüBilgisayar" Width="1.5" PointX="10.5" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Monitor" Width="1.5" PointX="7.5" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Musteri" Width="1.5" PointX="3" PointY="81.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Sipari" Width="1.5" PointX="5.25" PointY="85.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Tablet" Width="1.5" PointX="10.5" PointY="63" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Telefon" Width="1.5" PointX="5.25" PointY="62.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Televizyon" Width="1.5" PointX="7.5" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.TusluTelefon" Width="1.5" PointX="7.5" PointY="85.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunBilgiModel.Urunler" Width="1.5" PointX="3" PointY="85.75" IsExpanded="true" />
+        <AssociationConnector Association="UrunBilgiModel.FK__AkilliTel__Telef__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__BeyazEsya__Kateg__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__BeyazEsya__UrunI__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__BulasikMa__Beyaz__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Buzdolabi__Beyaz__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__CamasirMa__Beyaz__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__DerinDond__Beyaz__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Fırın__BeyazEsya__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Bilgisaya__Kateg__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Bilgisaya__UrunI__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Laptop__Bilgisay__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__MasaüstüB__Bilgi__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Tablet__Bilgisay__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Goruntu__Kategor__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Goruntu__UrunID__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Monitor__Goruntu__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Televizyo__Gorun__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Telefon__Kategor__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Urunler__Kategor__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Musteri__Kullani__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Siparis__UrunID__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Siparis__UrunID__1BFD2C07" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__Telefon__UrunID__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunBilgiModel.FK__TusluTele__Telef__25869641" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

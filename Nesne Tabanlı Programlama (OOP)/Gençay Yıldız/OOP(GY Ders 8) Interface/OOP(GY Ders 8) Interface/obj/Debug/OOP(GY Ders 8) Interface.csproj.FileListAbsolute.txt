@@ -1,0 +1,2 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP(GY Ders 8) Interface\OOP(GY Ders 8) Interface\bin\Debug\OOP(GY Ders 8) Interface.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP(GY Ders 8) Interface\OOP(GY Ders 8) Interface\bin\Debug\OOP(GY Ders 8) Interface.exe.config

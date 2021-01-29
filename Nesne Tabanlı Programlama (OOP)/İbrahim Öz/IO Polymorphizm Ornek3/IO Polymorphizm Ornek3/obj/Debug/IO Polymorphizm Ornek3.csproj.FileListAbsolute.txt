@@ -1,0 +1,18 @@
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\bin\Debug\IO Polymorphizm Ornek3.exe.config
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\bin\Debug\IO Polymorphizm Ornek3.exe
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\bin\Debug\IO Polymorphizm Ornek3.pdb
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.csprojResolveAssemblyReference.cache
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO_Polymorphizm_Ornek3.Form1.resources
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO_Polymorphizm_Ornek3.Properties.Resources.resources
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.csproj.GenerateResource.Cache
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.exe
+c:\users\abc\documents\visual studio 2015\Projects\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\bin\Debug\IO Polymorphizm Ornek3.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\bin\Debug\IO Polymorphizm Ornek3.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\bin\Debug\IO Polymorphizm Ornek3.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO_Polymorphizm_Ornek3.Form1.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO_Polymorphizm_Ornek3.Properties.Resources.resources
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\İbrahim Öz\IO Polymorphizm Ornek3\IO Polymorphizm Ornek3\obj\Debug\IO Polymorphizm Ornek3.csproj.GenerateResource.Cache

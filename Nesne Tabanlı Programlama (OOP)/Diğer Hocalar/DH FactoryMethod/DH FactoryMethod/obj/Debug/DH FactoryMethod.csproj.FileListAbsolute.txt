@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH FactoryMethod\DH FactoryMethod\bin\Debug\DH FactoryMethod.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH FactoryMethod\DH FactoryMethod\bin\Debug\DH FactoryMethod.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH FactoryMethod\DH FactoryMethod\bin\Debug\DH FactoryMethod.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH FactoryMethod\DH FactoryMethod\obj\Debug\DH FactoryMethod.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH FactoryMethod\DH FactoryMethod\obj\Debug\DH FactoryMethod.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH FactoryMethod\DH FactoryMethod\obj\Debug\DH FactoryMethod.pdb

@@ -1,0 +1,6 @@
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Singleton DP\DH Singleton DP\bin\Debug\DH Singleton DP.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Singleton DP\DH Singleton DP\bin\Debug\DH Singleton DP.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Singleton DP\DH Singleton DP\bin\Debug\DH Singleton DP.pdb
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Singleton DP\DH Singleton DP\obj\Debug\DH Singleton DP.csprojResolveAssemblyReference.cache
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Singleton DP\DH Singleton DP\obj\Debug\DH Singleton DP.exe
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Diğer Hocalar\DH Singleton DP\DH Singleton DP\obj\Debug\DH Singleton DP.pdb

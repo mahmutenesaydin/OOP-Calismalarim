@@ -1,0 +1,2 @@
+c:\users\abc\documents\visual studio 2015\Projects\OOP (GY Ders 10)Generic Class\OOP (GY Ders 10)Generic Class\bin\Debug\OOP (GY Ders 10)Generic Class.exe.config
+C:\Users\abc\Documents\Visual Studio 2015\Projects\Nesne Tabanlı Programlama (OOP)\Gençay Yıldız\OOP (GY Ders 10)Generic Class\OOP (GY Ders 10)Generic Class\bin\Debug\OOP (GY Ders 10)Generic Class.exe.config
